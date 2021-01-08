@@ -1,0 +1,149 @@
+
+.btn{
+	color: #111 !important;
+	font-size: 18px !important;
+}
+
+#short-intro a{
+	color: white !important;
+}
+
+.btn:hover{
+	color: #fff !important;
+}
+
+img{
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+ul{
+	list-style-type: none;
+}
+
+#contact-info .btn-envelop:hover{
+	color: #cc9d8c !important;
+}
+
+#contact-info .btn-linkedIn:hover{
+	color: #0a66c2 !important;
+}
+
+#contact-info .btn-twitter:hover{
+	color: #1da1f2 !important;
+}
+
+#contact-info .btn-gitHub:hover{
+	color: grey !important;
+}
+
+.my-intro{
+	background-image: url('https://bs-assets.toptal.io/blackfish-assets/bg-design_dd336b.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 630px;
+    max-width: 100%;
+    color: white !important;
+    padding-top: 160px;
+}
+
+#projects,#hobbies{
+	background: lightgrey;
+	margin-bottom: 12px;
+}
+
+.arrowicon:hover{
+	color: white !important;
+}
+
+
+#education{
+	background-color: #111;
+	color: white;
+}
+
+#education a{
+	color: white !important;
+}
+
+#contact-info{
+	margin-bottom: -12px;
+	background-color: black;
+	color: white;
+}
+
+#contact-info .btn{
+	color: white !important;
+}
+
+
+#posts-button>a{
+	color: white;
+}
+
+#edu-icons:hover{
+	transform: scale(1.3);
+	transition: transform .2s
+}
+
+.btn:hover{
+	transform: scale(1.1);
+	border-radius: 25px;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+#github a:hover{
+	color: black;
+}
+
+h1{
+	text-transform: uppercase;
+  	text-decoration: none;
+  	position: relative;
+}
+
+
+h1:after{
+	background: none repeat scroll 0 0 transparent;
+  	bottom: 0;
+  	content: "";
+  	display: block;
+  	height: 2px;
+  	left: 50%;
+  	position: absolute;
+  	background: yellow;
+  	transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  	width: 0;
+}
+
+h1:hover:after{
+	width:100%;
+	left: 0;
+	right:0;
+}
+
+.image-box{
+			width: 300px; 
+            height: 300px; 
+            overflow: hidden; 
+            margin: 0 auto; 
+}
+
+.image-box img{
+    transition: 0.5s all ease-in-out; 
+}
+
+.image-box:hover img{
+	transform: scale(1.2);
+}
+
+.image-box iframe{
+	transition: 0.5s all ease-in-out; 	
+}
+
+.image-box:hover iframe{
+	transform: scale(1.5);	
+}
