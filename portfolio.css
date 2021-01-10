@@ -150,7 +150,3 @@ h1:hover:after{
 .image-box:hover iframe{
 	transform: scale(1.5);	
 }
-
-#contact-info .btn-instagram:hover{
-	color: #de5c5c !important;
-}
